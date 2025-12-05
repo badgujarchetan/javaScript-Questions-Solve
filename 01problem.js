@@ -10,6 +10,8 @@
 // if the input string is empty or contains only whitspaces the functions should retrun an false
 // the function should ignore leading and trailing whitespace when determinig the longest world
 
+
+
 const findLongestWords = (str) => {
   if (str.trim().length === 0) {
     return false;
